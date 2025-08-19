@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  # No build command needed for a static site. If you add a build step later, set it here.
+  # command = ""
+
+# Optional: basic security headers (customize as you like)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "no-referrer-when-downgrade"
+

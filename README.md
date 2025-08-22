@@ -1,6 +1,6 @@
 # Rooted Marketing Site
 
-A minimal, Netlify-ready static marketing site scaffold.
+A Netlify-ready static marketing site for Rooted Ag.
 
 ## Local development
 
@@ -15,18 +15,10 @@ python3 -m http.server 5173
 
 Then visit `http://localhost:5173`.
 
-- Or with Node (serve):
-
-```bash
-cd /Users/rhysalgar/Projects/rooted_marketing_site
-npx --yes serve@14 . -l 5173
-```
-
 Edit files under `index.html` or `assets/` and refresh your browser.
 
 ## Deploy to Netlify
 
-- Push this repository to GitHub/GitLab/Bitbucket
 - In Netlify, create a new site from git and select this repo
 - Build settings:
   - Build command: (leave blank)
@@ -36,7 +28,7 @@ Edit files under `index.html` or `assets/` and refresh your browser.
 
 ## Structure
 
-- `index.html` — Home page (Hello World)
+- `index.html` — Home page 
 - `404.html` — Not found page
 - `assets/css/styles.css` — Base styles
 - `assets/js/main.js` — Placeholder script

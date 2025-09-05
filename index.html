@@ -900,7 +900,7 @@
           operation.
         </p>
 
-        <form class="signup-form" onsubmit="handleSubmit(event)" netlify>
+        <form class="signup-form" netlify>
           <input
             type="text"
             name="name"
@@ -982,6 +982,7 @@
 
         event.target.reset();
       }
+      document.querySelector("form").addEventListener("submit", handleSubmit);
 
       // Smooth scrolling
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {

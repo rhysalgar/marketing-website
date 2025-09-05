@@ -971,18 +971,18 @@
     </footer>
 
     <script>
-      function handleSubmit(event) {
-        event.preventDefault();
-        const email = event.target.querySelector('input[type="email"]').value;
+      // function handleSubmit(event) {
+      //   event.preventDefault();
+      //   const email = event.target.querySelector('input[type="email"]').value;
 
-        // In production, this would send to your backend
-        alert(
-          `Thanks for your interest! We'll contact you at ${email} with next steps for the pilot program.`
-        );
+      //   // In production, this would send to your backend
+      //   alert(
+      //     `Thanks for your interest! We'll contact you at ${email} with next steps for the pilot program.`
+      //   );
 
-        event.target.reset();
-      }
-      document.querySelector("form").addEventListener("submit", handleSubmit);
+      //   event.target.reset();
+      // }
+      // document.querySelector("form").addEventListener("submit", handleSubmit);
 
       // Smooth scrolling
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
